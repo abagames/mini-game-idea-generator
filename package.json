@@ -1,0 +1,16 @@
+{
+  "name": "mini-game-idea-generator",
+  "version": "1.0.0",
+  "description": "A simple tool to generate random ideas for mini-games",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": "abagames",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^2.9.12"
+  }
+}
