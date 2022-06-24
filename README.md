@@ -4,4 +4,4 @@
 
 A simple tool to generate random ideas for mini-games.
 
-<img src="./docs/screenshot.gif" alt="screenshot"/>
+![screenshot](./docs/screenshot.gif)
