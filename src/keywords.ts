@@ -759,7 +759,7 @@ export const objectives_ja = [
 ];
 
 export function getTransitiveIdea_en(verb: string, objective: string) {
-  return `${verb} ${objective}`;
+  return changeFirstLetterToUpperCase(`${verb} ${objective}.`);
 }
 
 export function getTransitiveIdea_ja(verb: string, objective: string) {
@@ -767,9 +767,13 @@ export function getTransitiveIdea_ja(verb: string, objective: string) {
 }
 
 export function getIntransitiveIdea_en(verb: string, objective: string) {
-  return `${objective} ${verb}`;
+  return changeFirstLetterToUpperCase(`${objective} ${verb}.`);
 }
 
 export function getIntransitiveIdea_ja(verb: string, objective: string) {
   return `${objective} が ${verb}`;
+}
+
+function changeFirstLetterToUpperCase(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
